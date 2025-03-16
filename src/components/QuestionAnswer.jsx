@@ -11,7 +11,7 @@ function QuestionAnswer({ questionIndex, handleTimeOut, handleAnswerSelectProp }
     });
 
     const handleSelectedAnswer = function (answer) {
-        setAnswerContext({ answer: answer, isCorrect: null })
+        setAnswerContext({ answer: answer, isCorrect: null });
 
         setTimeout(() => {
             setAnswerContext((prevContext) => {
